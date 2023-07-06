@@ -28,7 +28,8 @@
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.8.23",
@@ -84,6 +85,9 @@
               "& when (@bg-type = 'video')": {
                 "background-image": "url(@fallBackImage)"
               }
+            },
+            ".mbr-section-title": {
+              "color": "#bed3f9"
             }
           },
           "_name": "header1",
